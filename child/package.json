@@ -1,0 +1,17 @@
+{
+  "name": "@cjdreiss/ts-import-error-child",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": false,
+  "dependencies": {
+    "@cjdreiss/ts-import-error-parent": "0.0.0"
+  },
+  "devDependencies": {}
+}
