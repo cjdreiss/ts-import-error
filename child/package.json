@@ -11,7 +11,7 @@
   },
   "private": false,
   "dependencies": {
-    "@cjdreiss/ts-import-error-parent": "0.0.0"
+    "@cjdreiss/ts-import-error-parent": "0.0.2"
   },
   "devDependencies": {}
 }

@@ -23,6 +23,11 @@
         test: [{ type: core.Input }]
     };
 
+    /// <reference types="@angular/core" />
+    /// <reference types="@angular/common" />
+    /// <reference types="@angular/router" />
+    /// <reference types="@angular/forms" />
+    /// <reference types="rxjs" />
     var SharedModule = /** @class */ (function () {
         function SharedModule() {
         }
@@ -41,8 +46,6 @@
                     ]
                 },] }
     ];
-
-    /// <reference types="@angular/core" />
 
     /**
      * Generated bundle index. Do not edit.

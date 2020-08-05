@@ -18,6 +18,11 @@ ExampleComponent.propDecorators = {
     test: [{ type: Input }]
 };
 
+/// <reference types="@angular/core" />
+/// <reference types="@angular/common" />
+/// <reference types="@angular/router" />
+/// <reference types="@angular/forms" />
+/// <reference types="rxjs" />
 class SharedModule {
 }
 SharedModule.decorators = [
@@ -33,8 +38,6 @@ SharedModule.decorators = [
                 ]
             },] }
 ];
-
-/// <reference types="@angular/core" />
 
 /**
  * Generated bundle index. Do not edit.
