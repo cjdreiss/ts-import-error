@@ -1,3 +1,8 @@
+/// <reference types="@angular/core" />
+/// <reference types="@angular/common" />
+/// <reference types="@angular/router" />
+/// <reference types="@angular/forms" />
+/// <reference types="rxjs" />
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ExampleComponent } from '@cjdreiss/ts-import-error-parent';
