@@ -9,6 +9,7 @@ import { ExampleComponent } from '@cjdreiss/ts-import-error-parent';
 })
 export class AppComponent {
   title = 'child';
+  testing2: Directive;
   test: Observable<any>; // won't auto import at first
   // test2: BehaviorSubject<any>; // won't auto import even though there is an rxjs import already...
   parent: ExampleComponent; // auto imports because @cjdreiss/ts-import-error-parent is in package.json

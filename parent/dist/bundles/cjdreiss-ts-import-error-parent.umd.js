@@ -42,6 +42,8 @@
                 },] }
     ];
 
+    /// <reference types="@angular/core" />
+
     /**
      * Generated bundle index. Do not edit.
      */
